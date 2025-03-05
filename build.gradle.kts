@@ -42,5 +42,5 @@ tasks.test {
 pmd {
   isConsoleOutput = true
   toolVersion="6.55.0"
-  ignoreFailures=true
+  maxFailures=10000000
 }
